@@ -124,3 +124,4 @@ This is a suggestion for a questionnaire to gather this info.
     * Do you have your own custom conda, PyPI, npm repositories?
 
   * Do you use Kubernetes, Ansible, or anything like that for deployment?
+  * Dan: What if we could "tag team" our bugs ? For anyone interested we could pick a day and an issue, setup a team meeting (on whereby for example), share screens and debud together! Anyone interested? I'd love to help if I can :) ? 
