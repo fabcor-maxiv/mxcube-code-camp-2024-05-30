@@ -118,6 +118,11 @@ This is a suggestion for a questionnaire to gather this info.
 
   * Same question for Javascript dependencies?
 
+  * Choose of OS
+    * Linux/something else? Which distribution?
+    * Free choice or imposed by guidlines?
+    * Centrralised or local managment (update cycle/package installation)?     
+
   * Infrastructure restrictions?
     * Does you infrastructure/IT team restrict what you can use? Policies?
     * License restrictions
