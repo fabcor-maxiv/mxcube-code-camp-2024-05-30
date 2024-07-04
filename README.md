@@ -103,6 +103,11 @@ This is a suggestion for a questionnaire to gather this info.
   * How far can you get working locally on your laptop only?
   * How often do you need to go test directly at the beamline?
 
+* How to test?
+
+  * Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects ?
+  * Do you have procedures for automatic tests?
+
 * How much resources do you have?
 
   * How many MXCuBE developers are there in the facility?
