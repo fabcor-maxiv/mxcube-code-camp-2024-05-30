@@ -102,10 +102,12 @@ This is a suggestion for a questionnaire to gather this info.
 
   * How far can you get working locally on your laptop only?
   * How often do you need to go test directly at the beamline?
+  * What role does reverse engineering play in the developmet process? As a new developer to the MXCuBE project I often find miself tring to figure out how the various components work and how they interface with eachother. Most of this information is not yet documented. Are there any best practices for how to speed up learning about the inner workings of the MXCuBE App?
+  * Should we write a user manual and a developer manual or should we keep all documantation in a single place (mxcubewed/docs)  
 
 * How to test?
 
-  * Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects ?
+  * Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects? Waht are the limitations othe mockup hardware objects when testing ?
   * Do you have procedures for automatic tests?
 
 * How much resources do you have?
@@ -120,6 +122,7 @@ This is a suggestion for a questionnaire to gather this info.
 
   * Install Python dependencies?
     * With conda? pip? Poetry?
+    * How often should we do a poetry install? (as an example if I see that the poetry.lock file changed after I do a git pull, then I also do a poetry install but I'm not yet sure how good is this practice)
 
   * Same question for Javascript dependencies?
 
