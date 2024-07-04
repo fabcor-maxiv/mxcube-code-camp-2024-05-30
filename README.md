@@ -64,15 +64,12 @@ _To be completed..._
 
 * Dan, presents UML diagram of some of the most important classes in MXCuBE-Core:
 
-  I made the diagram by hand, which is time consuming.
-  I investigated writing a script that would extract info from code,
-  and store info in Neo4J database.
-  I chose Neo4J because I know it quite well.
-  It would make querying info about the code base easy.
-  I could put some more effort into it, if there is interest.
+  Diagrams are usefull tools when trying to understand how the various components of the MXCuBE app interact. I tried using pyrevese to automaitly generate class diagrams. This methods is fast but the results are limited and although it can provide some usefull information, the resulting diagrams were incomplete, with many relationships between classes missing.
+  I also tried making class diagrams "by hand", using Gaphor but doing thiss for all classes in MXCuBE takes time so I only did this for the sample changer.  
+  One ideea for visualising class diagram would be to write a script that would extract this information from the code and store it in Neo4J database.
+  I chose Neo4J because I know it quite well having worked with it in the past and it's a natural fit for data structures such as class diagrams. Basicly a python scrypt could create a Neo4J database from the MXCuCE code base. This would allow the visualisation off any set of classes and their relationships. This approach would be much faster than drawing the whole MXCuBE app class diagram in Gaphor but I'm not sure if the overall utility for the project is worth the time. At this point it's just an idea that could make querying info about the classes, the components and their interactions easyer and faster than digging through the code. I could put some more effort into it, if there is interest.
 
 * Laís:
-
   I would be interested in such diagram.
 
 * Fabien:
