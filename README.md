@@ -7,56 +7,109 @@ It would be interesting if each facility could share how they handle those topic
 This is a suggestion for a questionnaire to gather this info.
 
 
-### Questionnaire
+## General
 
-* How to keep up to date with changes on GitHub upstream?
-  * How often integrate (latest) changes from upstream?
-  * Cherry picking specific changes (i.e.: important bug fixes)?
+1. ***Which facility (and beamlines)?***
 
-* How often do you contribute your improvements back to upstream GitHub?
-  * Do you have your own forks of MXCuBE repositories?
-    * If yes, do you use GitHub, GitLab or anything else like this?
+    Specific both name of the facility and beamline(s)
+    if you intend to fill in the form multiple times (one per beamline or beamline group).
 
-* How to develop?
+2. ***How many beamlines?***
 
-  * How far can you get working locally on your laptop only?
-  * How often do you need to go test directly at the beamline?
-  * How do you learn about the inner workings of MXCuBE? Is it enough to read the code?
 
-* How to test?
+## Resources
 
-  * Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects?
-    * What limitations or hurdles do you encounter when testing with mockup hardware compared to real hardware?
-  * Do you have procedures for automatic tests?
+How much resources do you have?
 
-* How much resources do you have?
+1. ***How many people working on MXCuBE?***
 
-  * How many MXCuBE developers are there in the facility?
-    How many MX beamlines with MXCuBE do they have to take care of?
+1. ***How many are software developers?***
 
-* How to deploy?
+1. ***How many MX beamlines with MXCuBE do they have to take care of?***
 
-  * Python environments
-    * Use conda environment? Or standard Python environment? venv, or Poetry?
+1. ***How many hours can they dedicate to work on MXCuBE development?***
 
-  * Install Python dependencies?
-    * With conda? pip? Poetry?
+    Per week, month, or year.
 
-  * Same question for Javascript dependencies?
 
-  * Choose of OS
-    * Linux/something else? Which distribution?
-    * Free choice or imposed by guidlines?
-    * Centrralised or local managment (update cycle/package installation)?
+## Coding
 
-  * Infrastructure restrictions?
+How to code?
+
+1. ***How far can you get working locally on your laptop only?***
+
+1. ***How often do you need to go test directly at the beamline?***
+
+1. ***How do you learn about the inner workings of MXCuBE?***
+
+    Is it enough to read the code?
+
+
+## Collaboration
+
+How to collaborate?
+
+1. ***How do you keep up to date with changes on GitHub upstream?***
+
+1. ***How often integrate (latest) changes from upstream?***
+
+1. ***Do you only cherry pick specific changes?***
+
+    i.e.: important bug fixes
+
+1. ***Do you have your own forks of MXCuBE repositories?***
+
+    If yes, do you use GitHub, GitLab or anything else like this?
+
+1. ***How often do you contribute your improvements back to upstream GitHub?***
+
+
+## Test
+
+How to test?
+
+1. ***How do you test new code?***
+
+1. ***Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects?***
+
+1. ***What limitations or hurdles do you encounter when testing with mockup hardware?***
+
+    Compared to real hardware.
+
+1. ***Do you have procedures for automatic tests?***
+
+    For example in a CI/CD toolchain.
+
+
+### Deployment
+
+How to deploy?
+
+1. ***Python environments***
+
+    Use conda environment? Or standard Python environment? venv, or Poetry?
+
+1. ***Install Python dependencies?***
+
+    With conda? pip? Poetry?
+
+1. ***Install Javascript dependencies?***
+
+1. ***Choice of OS***
+
+    * Linux or something else? Which distribution?
+    * Free choice or imposed by guidelines?
+    * Centralised or local managment (update cycle/package installation)?
+
+1. ***Infrastructure restrictions?***
+
     * Does you infrastructure/IT team restrict what you can use? Policies?
     * License restrictions
     * Network restrictions
     * Can you use Anaconda?
     * Do you have access to conda channels (package repositories)? PyPI? npmjs.com?
 
-  * Infrastructure services
-    * Do you have your own custom conda, PyPI, npm repositories?
+1. ***Infrastructure services***
 
-  * Do you use Kubernetes, Ansible, or anything like that for deployment?
+    * Do you have your own custom conda, PyPI, npm repositories?
+    * Do you use Kubernetes, Ansible, or anything like that for deployment?
