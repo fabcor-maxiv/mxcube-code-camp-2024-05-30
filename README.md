@@ -64,11 +64,15 @@ _To be completed..._
 
 * Dan, presents UML diagram of some of the most important classes in MXCuBE-Core:
 
-  Diagrams are usefull tools when trying to understand how the various components of the MXCuBE app interact. I tried using Pyrevese to automaitly generate class diagrams. This methods is fast and although it can provide some usefull information, the resulting diagrams were incomplete, with many relationships between classes missing.
-  I also tried making class diagrams "by hand", using Gaphor but doing this for all classes in MXCuBE takes time so I only did this for the sample changer.  
-  One ideea for visualising class diagram would be to write a script that would extract this information from the code and store it in Neo4J database. I chose Neo4J because I know it quite well having worked with it in the past and it's a natural fit for data structures such as class diagrams. This would allow the visualisation off any set of classes and their relationships. This approach would be much faster than drawing the whole MXCuBE app class diagram in Gaphor but I'm not sure if the overall utility for the project is worth the time. At this point it's just an idea that could make querying info about the classes, the components and their interactions easyer and faster than digging through the code. I could put some more effort into it, if there is interest.
+  I made the diagram by hand, which is time consuming.
+  I investigated writing a script that would extract info from code,
+  and store info in Neo4J database.
+  I chose Neo4J because I know it quite well.
+  It would make querying info about the code base easy.
+  I could put some more effort into it, if there is interest.
 
 * Laís:
+
   I would be interested in such diagram.
 
 * Fabien:
@@ -98,12 +102,12 @@ This is a suggestion for a questionnaire to gather this info.
 
   * How far can you get working locally on your laptop only?
   * How often do you need to go test directly at the beamline?
-  * What role does reverse engineering play in the developmet process? As a new developer to the MXCuBE project I often find miself tring to figure out how the various components work and how they interface with eachother. Most of this information is not yet documented. Are there any best practices for how to speed up learning about the inner workings of the MXCuBE App?
-  * Should we write a user manual and a developer manual or should we keep all documantation in a single place (mxcubewed/docs)  
+  * How do you learn about the inner workings of MXCuBE? Is it enough to read the code?
 
 * How to test?
 
-  * Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects? Waht are the limitations othe mockup hardware objects when testing ?
+  * Are you using simulated devices (Tango, Epics, etc.) to test the mxcube hardware objects?
+    * What limitations or hurdles do you encounter when testing with mockup hardware compared to real hardware?
   * Do you have procedures for automatic tests?
 
 * How much resources do you have?
@@ -118,14 +122,13 @@ This is a suggestion for a questionnaire to gather this info.
 
   * Install Python dependencies?
     * With conda? pip? Poetry?
-    * How often should we do a poetry install? (as an example if I see that the poetry.lock file changed after I do a git pull, then I also do a poetry install but I'm not yet sure how good is this practice)
 
   * Same question for Javascript dependencies?
 
   * Choose of OS
     * Linux/something else? Which distribution?
     * Free choice or imposed by guidlines?
-    * Centrralised or local managment (update cycle/package installation)?     
+    * Centrralised or local managment (update cycle/package installation)?
 
   * Infrastructure restrictions?
     * Does you infrastructure/IT team restrict what you can use? Policies?
