@@ -151,7 +151,14 @@ How do you deploy new MXCuBE code?
 
 1. ***Do you have any additional comments?***
 
+## Related topics
 
+***What PyQt version is in use (for MXCuBE Qt)?***
+***What real-time image viewer is used (adxv, Albula, Braggy, internal development)?***
+***Which format of files is used (h5,cbf, something else?)***
+***What autoprocessing workflow and infrastructure is used (cluster job submissions, independent managment system, etc)?***
+***What flavour of database is used (ISPyB/EXI,*CAT, etc)?***
+ 
 ## Thanks!
 
 Thank you for participating in this questionnaire.
