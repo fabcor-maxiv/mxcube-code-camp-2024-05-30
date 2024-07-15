@@ -19,12 +19,18 @@ feel free to expand on some questions if you feel it is necessary.
 
 ## General
 
-1. ***Which facility (and beamlines)?***
+1. ***Which facility?***
 
-2. ***Which beamlines?***
+1. ***Which beamlines?***
 
-    Feel free to fill in the questionnaire multiple times,
-    if you want to give different answers for each beamline (or group of beamlines).
+1. ***What is the software stack?***
+
+    Web or Qt (PyQt version, etc.),
+    LIMS (ISPyB/EXI, ICAT, etc.),
+    file formats (HDF5, CBF, etc.),
+    real-time image viewer (Albula, Braggy, etc.),
+    autoprocessing workflows,
+    and so on
 
 
 ## Resources
