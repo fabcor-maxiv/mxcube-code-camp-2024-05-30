@@ -7,7 +7,7 @@ It would be interesting if each facility could share how they handle those topic
 This way we can compare experiences, learn from each other,
 identify common pain points, and collaborate better on MXCuBE.
 
-All questions (besides the first two inital questions) are optional,
+All questions (besides the first two initial questions) are optional,
 feel free to skip any question.
 
 All questions expect free text answers,
@@ -45,7 +45,7 @@ How much developer resources do you have?
 
 1. ***How many hours can they dedicate to working on MXCuBE?***
 
-    Per week, month, or year.
+    In total. Per week, month, or year.
 
 1. ***Do you have any additional comments?***
 
@@ -54,7 +54,7 @@ How much developer resources do you have?
 
 How do you code for MXCuBE?
 
-1. ***How far can you get coding locally on your laptop only?***
+1. ***How far can you get coding locally using your computer or laptop only?***
 
 1. ***How often do you need to go directly at the beamline to code (not test)?***
 
@@ -75,7 +75,7 @@ How do you collaborate on MXCuBE code?
 
 1. ***Do you only cherry pick specific changes?***
 
-    i.e.: important bug fixes
+    For example important bug fixes only.
 
 1. ***Do you have your own forks of MXCuBE repositories?***
 
@@ -124,13 +124,13 @@ How do you deploy new MXCuBE code?
 
     Do you install Python dependencies with conda, Poetry, pip?
 
-1. ***How do you install Javascript dependencies?***
+1. ***How do you install JavaScript dependencies?***
 
 1. ***What operating systems do you deploy on?***
 
-    * Linux or something else? Which distribution?
+    * Linux or something else? Which distribution? Which version?
     * Free choice or imposed by guidelines?
-    * Centralised or local managment (update cycle/package installation)?
+    * Centralised or local management (update cycle/package installation)?
 
 1. ***Do you have infrastructure restrictions for deployment?***
 
@@ -140,7 +140,7 @@ How do you deploy new MXCuBE code?
     * Can you use Anaconda?
     * Do you have access to conda channels (package repositories), PyPI, npmjs.com?
 
-1. ***Infrastructure services***
+1. ***Do you have access to specific infrastructure services?***
 
     * Do you have your own custom conda, PyPI, npm repositories?
     * Do you use Kubernetes, Ansible, or anything like that for deployment?
@@ -148,12 +148,15 @@ How do you deploy new MXCuBE code?
 1. ***Do you have any additional comments?***
 
 
-## General pain points
+## Pain points
 
 1. ***What are recurring pain points regarding MXCuBE development workflows?***
 
     In terms of coding, testing, deploying, collaborating, etc.
-    What could be improved?
+
+1. ***What do you think could be improved regarding MXCuBE development workflows?***
+
+    In terms of coding, testing, deploying, collaborating, etc.
 
 1. ***Do you have any additional comments?***
 
