@@ -7,14 +7,14 @@ It would be interesting if each facility could share how they handle those topic
 This way we can compare experiences, learn from each other,
 identify common pain points, and collaborate better on MXCuBE.
 
-Feel free to fill in the questionnaire multiple times,
-if you want to give different answers for each beamline (or group of beamlines).
-
 All questions (besides the first two inital questions) are optional,
 feel free to skip any question.
 
 All questions expect free text answers,
 feel free to expand on some questions if you feel it is necessary.
+
+Each section has an "*additional comments*" question,
+feel free to use it if the other questions do not correspond to what you want to write.
 
 
 ## General
